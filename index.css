@@ -58,7 +58,13 @@ cursor: pointer;
 }
 
 .paragrafo-resultado {
-    background: rgb(227, 114, 114);
-    padding: 10px 10px;
-    margin-top: 1rem;
+background: rgb(106, 239, 159);
+padding: 10px 10px;
+margin-top: 1rem;
+}
+
+.bad {
+background: rgb(243, 122, 95);
+padding: 10px 10px;
+margin-top: 1rem;
 }
