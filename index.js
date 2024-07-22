@@ -1,3 +1,43 @@
+// aqui na minha linha 41 eu estou pegando o meu FORM
+// pelo ID que eu dei pra ele, através do método querySelector.
+
+// aqui na minha linha 43 eu adicionei um eventListener
+//para capturar o evento de submit
+
+//aqui na minha linha 45 e 46 eu estou capturando os
+//dados do meu input 
+
+// aqui na minha linha 48 e 49 eu tentei
+// converter o valor dos meus inputs para NUMBER
+
+//iniciando as minhas validações aqui na linha 51 
+//se caso o peso e a altura não receberem um número
+//como parâmetro eu vou retornar para o usuário 
+// que a informação passada por ele deu como 
+//altura ou peso inválido
+
+//aqui na minha linha 61 e 62 eu estou calculando o IMC
+//na linha x eu criei uma função específica para calcular o IMC
+//na linha x eu criei tambem uma função especifica para o texto do imc
+
+//na minha linha 64 eu criei a função que vai renderizar uma mensagem
+//para o usuário indicando qual o imc dele e qual o grau que se encontra
+
+//na minha linha 70 eu criei um array que informa qual o grau de obesidade
+//de acordo com o valor que vai ser digitado pelo usuário
+
+//aqui na minha linha 82 eu criei a função para calcular o IMC
+
+//aqui na minha linha 87 eu só criei a função que cria um paragráfo (p)
+
+//aqui na minha linha 92 eu criei uma função que seta o resultado, essa
+//função ela recebe uma mensagem como parâmetro e se o resultado é valido
+
+//aqui na minha linha 98 eu criei uma função que caso o resultado seja válido
+//aparecerá uma mensagem na tela com o fundo verde e caso o valor fornecido
+//pelo usuário seja um valor inválido eu vou retornar uma mensagem com 
+//o fundo em vermelho junto de uma mensagem também.
+
 const form = document.querySelector('#form');
 
 form.addEventListener('submit', function (e) {
