@@ -19,8 +19,8 @@ margin-top: 2rem;
 }
 
 .container {
-width: 35rem;
-height: 31rem;
+width: 37rem;
+height: 35rem;
 background-color: white;
 }
 
@@ -55,4 +55,10 @@ background-color: #3b1a0fa1;
 color: white;
 margin-top: 5px;
 cursor: pointer;
+}
+
+.paragrafo-resultado {
+    background: rgb(227, 114, 114);
+    padding: 10px 10px;
+    margin-top: 1rem;
 }

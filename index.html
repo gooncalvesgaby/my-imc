@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <form class="container" id="form">
         <h1>MEU IMC</h1>
         <div class="tabela">
             <div>
@@ -37,13 +37,14 @@
         </div>
         <div class="calcule">
             <h2>CAUCULE SEU IMC</h2>
-            <label>PESO</label>
-            <input type="text">
-            <label>ALTURA:</label>
-            <input type="text">
-            <button>CALCULAR</button>
+            <label for="peso">PESO</label>
+            <input type="text" id="peso">
+            <label for="altura">ALTURA:</label>
+            <input type="text" id="altura">
+            <button type="submit">CALCULAR</button>
         </div>
-    </div>
+        <div id="resultado"></div>
+    </form>
     <script src="index.js"></script>
 </body>
 
