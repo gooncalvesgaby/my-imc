@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+background-color: #3b1a0f;
+display: flex;
+justify-content: center;
+margin-top: 5rem;
+}
+
+h1 {
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+}
+
+.container {
+width: 35rem;
+height: 30rem;
+background-color: white;
+}
+
+.tabela {
+display: flex;
+justify-content: space-around;
+margin: 5rem 3rem
+}
+
+ul {
+    list-style-type: none;
+}
+
