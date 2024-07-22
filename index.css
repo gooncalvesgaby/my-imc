@@ -20,7 +20,7 @@ margin-top: 2rem;
 
 .container {
 width: 35rem;
-height: 30rem;
+height: 31rem;
 background-color: white;
 }
 
@@ -34,3 +34,25 @@ ul {
     list-style-type: none;
 }
 
+.calcule {
+display: flex;
+flex-direction: column;
+align-items: center
+}
+
+input {
+width: 30vw;
+border: solid 2px black;
+border-radius: 1rem;
+}
+
+button {
+width: 7rem;
+height: 2rem;
+border: solid 1px black;
+border-radius: 2rem;
+background-color: #3b1a0fa1;
+color: white;
+margin-top: 5px;
+cursor: pointer;
+}
